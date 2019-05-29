@@ -1,0 +1,189 @@
+<html>
+<head>
+
+<style>
+body {background-color:white;}
+p {font-size: 18px;}
+</style>
+<script>
+var a = 0;
+var b = 0;
+var c = 0;
+var d = 0;
+var e = 0;
+var f = 0;
+
+function tick(){if(a === 1)
+ {document.getElementById("1div").style.display = "block";}
+ else{document.getElementById("1div").style.display = "none";}
+ 
+ if(b === 1)
+ {document.getElementById("2div").style.display = "block";}
+ else{document.getElementById("2div").style.display = "none";}
+
+if(c === 1)
+ {document.getElementById("3div").style.display = "block";}
+ else{document.getElementById("3div").style.display = "none";}
+
+if(d === 1)
+ {document.getElementById("4div").style.display = "block";}
+ else{document.getElementById("4div").style.display = "none";}
+ 
+ if(e === 1)
+ {document.getElementById("5div").style.display = "block";}
+ else{document.getElementById("5div").style.display = "none";}
+ 
+ if(f === 1)
+ {document.getElementById("6div").style.display = "block";}
+ else{document.getElementById("6div").style.display = "none";}
+ setTimeout(tick,10);}
+ 
+function change1(){
+a = 1;
+b = 0;
+c = 0;
+d = 0;
+e = 0;
+f = 0;
+}
+
+
+function change2(){
+a = 0;
+b = 1;
+c = 0;
+d = 0;
+e = 0;
+f = 0;
+}
+
+
+function change3(){
+a = 0;
+b = 0;
+c = 1;
+d = 0;
+e = 0;
+f = 0;
+}
+
+
+function change4(){
+a = 0;
+b = 0;
+c = 0;
+d = 1;
+e = 0;
+f = 0;
+}
+
+
+function change5(){
+a = 0;
+b = 0;
+c = 0;
+d = 0;
+e = 1;
+f = 0;
+}
+
+
+function change6(){
+a = 0;
+b = 0;
+c = 0;
+d = 0;
+e = 0;
+f = 1;
+}
+</script>
+</head>
+<body Onload="tick()">
+<div id="top">
+<h1 align="center">The Evolution Of The Horse</h1>
+<p align="center">Click on of the images to learn more about each speices!</p>
+</div>
+<div id="timeline" align="center">
+<button type="button" onclick="change1()" id="1"> <img style="height:100px; width:175px" src="https://live.staticflickr.com/501/31658758664_363530c1c4_b.jpg" id="1-1"></button>
+
+<button type="button" onclick="change2()" id="2"> <img style="height:100px; width:175px" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Mesohippus.jpg" id="2-2"></button>
+
+<button type="button" onclick="change3()" id="3"> <img style="height:100px; width:175px" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Parahippus.jpg" id="3-3"></button>
+
+
+<button type="button" onclick="change4()" id="4"> <img style="height:100px; width:175px" src="https://live.staticflickr.com/510/31659452424_56825d896d_b.jpg " id="4-4"></button>
+
+
+<button type="button" onclick="change5()" id="5"> <img style="height:100px; width:175px" src="https://equineguelph.ca/learn_objects/evolutiontimeline/images/pliohippus.jpg" id="5-5"></button>
+
+
+<button type="button" onclick="change6()" id="6"> <img style="height:100px; width:175px" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Equus_conversidens.jpg" id="6-6"></button>
+
+</div>
+<div id="1div">
+<h2> The Eohippus</h2>
+<p> This was the first form of the horse it was called the Eohippus it lived about 40-50 million years ago. t is very different from the horse that we know today. It was only about 24 inches tall and had a curved back along with a much smaller snout and it’s teeth weren't as developed as todays horse. It was a small forest animal that was much like a modern day deer in the way it moved but looked most like a dog.
+</p>
+</div>
+<div id="2div">
+<h2>The Mesohippus</h2> 
+<p>
+This early evolution of the horse lived about 35 million years ago. It is still very different from a horse but much has changed since the times of the Eohippus, it is now about 24 inches tall and has longer legs and a straighter back that resembles the one of today's horses. Both its neck and snout are longer and has only 3 toes on each feet instead of 4.
+</p>
+</div>
+
+<div id="3div">
+<h2>The Miohippus</h2>
+<p>
+This species appeared about 36 million years ago. It is very similar to the Mesohippus. The only changes between the two are that it now has a bigger skull with a big crest and it’s ankle joints are now much different. 
+</p>
+</div>
+
+<div id="4div">
+<h2>The Marychippus</h2>
+<p>This formed about 17 millions years ago and begins to take the shape of the horse be know today. It is now about 40 inches tall and developed larger teeth roots that accommodated it’s bigger skull. The brain got larger and more complex allowing the horse to become more agile. 
+</p>
+</div>
+
+<div id="5div">
+<h2>The Pliohpippus</h2> 
+<p>
+This species formed about 15 million years ago. The horse didn't evolve from this species but is still part of the evolutionary tree. It’s snout has a deep facial fossae while the horse doesn't. It also had curved teeth which are different front straight modern day horses straight teeth.
+</p>
+</div>
+
+<div id="6div">
+<h2>The Eqquis</h2>
+<p>
+This is the modern day horse it is about 52 inches high. The leg bones fused together and ligaments formed to stop twisting of the hooves. It nows has much longer legs, neck, spine, and skull than the original Eohippus. It’s brain also developed more to make it smarter.
+</p>
+</div>
+<div id="Super">
+<h2>What is the Law of Superposition?</h2>
+<p> The law of superposition is the basis that the deeper something is in the earth the older it is, this is used by scientist to determine when the species lived. This happens because as time goes nature and gravity begin to compress the old rock and put new rock on top of it.  
+</p>
+</div>
+<div id="embyo">
+<h2> Embryology evidence in todays speices</h2>
+<p> 
+As you can see in the picture below the embryos all look similar when they first start forming, but as they get older that take more distinct shapes. The younger embryos tell us that because they are all similar they came from one very old ancestor. This is used as evidence for evolution.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Haeckel_drawings.jpg" width="750px" height="400px">
+</div>
+<div id="geo">
+<h2>Evidence of evolution through DNA</h2>
+<p>
+DNA between different species can be used to prove how closely related two species are two each other. Depending on how similar the DNA of a species is to another we can determine when the two species diverged from one another in the evolutionary tree depending on how much or how little they relate to each other. An example of this is between humans and chimpanzees, by looking at the DNA of both species all but about 1.2% of the genes are similar so this leads us to believe that humans and chimpanzees diverged as a species not to long ago. 
+
+
+</p>
+</div>
+<div id="body">
+<h2>Evidence of evolution through structure</h2>
+<p>
+Many species today have similarities within their anatomy, this is another example of evolution. An example of this occurring are the 3 common bones (radius, humorous, and the ulna)  in the arm of many species, including humans, whales, birds, and reptiles. Scientist use this as evidence of evolution.        
+
+
+</p>
+</div>
+</body>
+</html
